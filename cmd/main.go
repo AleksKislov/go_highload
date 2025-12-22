@@ -14,10 +14,10 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/yourname/go-service/internal/analytics"
-	"github.com/yourname/go-service/internal/cache"
-	"github.com/yourname/go-service/internal/handlers"
-	"github.com/yourname/go-service/internal/metrics"
+	"go-service/internal/analytics"
+	"go-service/internal/cache"
+	"go-service/internal/handlers"
+	"go-service/internal/metrics"
 )
 
 type Config struct {

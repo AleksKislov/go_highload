@@ -1,4 +1,4 @@
-module github.com/AleksKislov/go_highload
+module go-service
 
 go 1.22.2
 

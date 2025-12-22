@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/yourname/go-service/internal/analytics"
-	"github.com/yourname/go-service/internal/cache"
-	"github.com/yourname/go-service/internal/metrics"
+	"go-service/internal/analytics"
+	"go-service/internal/cache"
+	"go-service/internal/metrics"
 )
 
 type Handler struct {

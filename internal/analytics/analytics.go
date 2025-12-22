@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yourname/go-service/internal/metrics"
+	"go-service/internal/metrics"
 )
 
 type Metric struct {
