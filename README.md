@@ -58,7 +58,7 @@
 ### 1. Инициализация проекта
 
 ```bash
-cd /vagrant/go-service
+cd <repo_directory> 
 go mod download
 ```
 
