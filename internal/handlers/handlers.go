@@ -29,8 +29,8 @@ type AnalyticsResponse struct {
 	RollingAverage  float64   `json:"rolling_average"`
 	ZScore          float64   `json:"z_score"`
 	IsAnomaly       bool      `json:"is_anomaly"`
-	TotalMetrics    int       `json:"total_metrics"`
-	AnomaliesCount  int       `json:"anomalies_count"`
+	TotalMetrics    int64     `json:"total_metrics"`
+	AnomaliesCount  int64     `json:"anomalies_count"`
 	Timestamp       time.Time `json:"timestamp"`
 	WindowSize      int       `json:"window_size"`
 }
